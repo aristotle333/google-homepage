@@ -1,0 +1,129 @@
+.Header {
+	text-align: right;
+	margin-right: 25px;
+	margin-top: 10px;
+}
+
+#profilePicture {
+	width: 35px;
+	height: 35px;
+	margin: 5px 5px 5px 5px;
+	border-radius: 100%;
+}
+
+.Header > img {
+	font-family: Ariel, sans-serif;
+	width: 30px;
+	height: 30px;
+	margin: 5px 5px 5px 5px;
+	vertical-align: middle;
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: black;
+}
+
+.Center {
+	position: absolute;
+	text-align: center;
+	top: 20%;
+	right: 0;
+	left: 0;
+}
+
+.Center > img {
+	width: 350px;
+}
+
+form {
+    width: 300px;
+    margin: auto;
+}
+
+input:first-child {
+	display: block;
+	margin-bottom: 30px;
+	margin-top: 25px;
+	margin-left: -135px;
+	width: 585px;
+    height: 40px;
+    border: 1px solid #e7e7e7;
+    background: url('http://i.imgur.com/UIc0qX9.png') no-repeat scroll right;
+    padding-left: 15px;
+}
+
+input:first-child:hover {
+    border: 1px solid #c9c9c9;
+}
+
+input:first-child:focus {
+    border: 1px solid #28C2E7;
+}
+
+input:nth-child(2){ 
+    /*Google Search*/
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Arial;
+    color: gray;
+    font-weight: bold;
+    border: 1px solid #e7e7e7;
+}
+input:nth-child(2):hover{
+    border: 1px solid lightgray;
+    color: black;
+}
+
+input:nth-child(3){
+    /*I'm Feeling Lucky*/
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 5px;
+    font-family: Arial;
+    color: gray;
+    font-weight: bold;
+    border: 1px solid #e7e7e7;
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+}
+input:nth-child(3):hover{
+    border: 1px solid lightgray;
+    color: black;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0px;
+    width: 99.1%;
+    margin-left: -5px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #e7e7e7;
+    background-color: #f1f1f1;
+    height: 20px;
+    font-family: Arial;
+    font-size: 13px;
+}
+
+.footer > a, #right > a {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #666;
+}
+
+#right {
+    float: right;
+}

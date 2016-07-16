@@ -1,6 +1,6 @@
 ###Easy Version: Build the Google.com homepage
 
-Click [here](https://github.com/aristotle333/theodinproject/blob/master/google-homepage/index.html) to preview my webpage. 
+Click [here](http://htmlpreview.github.io/?https://github.com/aristotle333/theodinproject/blob/master/google-homepage/index.html) to preview my webpage. 
 
 
 1. Tips:

@@ -1,0 +1,49 @@
+
+<!-- saved from url=(0100)https://external-production.codecademy.com/assets/secure/index-e15cd898fa5906b22c02b7fc4cf8e509.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><script></script>
+
+    <script src="./jquery.min.js"></script><script src="./jquery.expect.js"></script><script src="./web_libs.js"></script>
+        <style>div {
+    height:100px;
+    width:100px;
+    display: inline-block;
+}
+
+#red {
+    background-color:#FF0000;
+}
+
+#blue {
+    background-color:#0000FF;
+}
+
+#yellow {
+    background-color:#E2BE22;
+}
+
+#green {
+    background-color:#008800;
+}</style>
+        <script type="text/javascript" defer="">$(document).ready(function() {
+   $('div').mouseenter(function() {
+       $(this).animate({
+           height: '+=10px'
+       });
+   });
+   $('div').mouseleave(function() {
+       $(this).animate({
+           height: '-=10px'
+       }); 
+   });
+   $('div').click(function() {
+       $(this).toggle(1000);
+   }); 
+});</script>
+    </head>
+    <body>
+        <div id="red"></div>
+        <div id="blue"></div>
+        <div id="yellow"></div>
+        <div id="green"></div>
+    
+</body></html>

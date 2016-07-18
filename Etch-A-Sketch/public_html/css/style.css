@@ -1,0 +1,23 @@
+body {
+    background-color: #ccffff;
+}
+
+#wrapper {
+    margin: auto;
+    height: 900px;
+    width: 900px;
+}
+
+#Title {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.square {
+/*    display: table-cell;*/
+    float: left;
+    vertical-align: middle;    
+    background-color: white;
+    outline: solid black 0.05px;
+}

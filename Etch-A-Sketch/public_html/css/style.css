@@ -4,14 +4,14 @@ body {
 
 #wrapper {
     margin: auto;
-    height: 900px;
-    width: 900px;
+    height: 850px;
+    width: 850px;
 }
 
 #Title {
-    text-font: Ariel;
     text-align: center;
     font-size: 30px;
+    margin-bottom: 10px;
 }
 
 #Buttons {
@@ -19,8 +19,28 @@ body {
     margin-bottom: 10px;
 }
 
+#Footer {
+    bottom: 0;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#repo {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .square {
-/*    display: table-cell;*/
     float: left;
     vertical-align: middle;    
     background-color: white;
